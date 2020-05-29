@@ -1,0 +1,13 @@
+<h2>Countdown</h2>
+<p>{{timer$ | async | timeFormatter }}</p>
+<button *ngIf="state === 'PLAY'" (click)="pause($event)">pause</button>
+<button *ngIf="state === 'PLAY'" (click)="stop($event)">stop</button>
+<ng-container *ngIf="timer$ | async as currentTime">
+<button *ngIf="state !== 'PLAY'"(click)="play(currentTime)">play</button>
+
+
+</ng-container>
+<ng-container *ngIf="state === 'FINISHED'">
+  <p>Break</p>
+  <button (click)="restart()">restart</button>
+</ng-container>

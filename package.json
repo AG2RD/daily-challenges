@@ -1,0 +1,10 @@
+{
+  "name": "challenge-01-pomodoro",
+  "version": "1.0.0",
+  "description": "little pomodoro app",
+  "main": "index.js",
+  "repository": "https://github.com/AG2RD/daily-challenges.git",
+  "author": "Adrien Gerard <agerard@altissia.org>",
+  "license": "MIT",
+  "dependencies": {}
+}
