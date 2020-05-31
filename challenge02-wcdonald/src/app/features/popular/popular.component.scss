@@ -1,0 +1,5 @@
+.popular-burgers{
+  display: grid;
+  grid-template-columns: repeat(3,1FR);
+  list-style-type: none;
+}
