@@ -1,0 +1,5 @@
+.burgers {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  list-style-type: none;
+}
