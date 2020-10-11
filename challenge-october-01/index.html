@@ -16,11 +16,15 @@
   >
 </head>
 
-<body>
+<body class="pomodoro-wrapper">
   <div class="pomodoro-container">
-    <span id="min"></span>:<span id="sec"></span>
-    <h2 id="state"></h2>
+    <p class="pomodoro-countdown"><span id="min"></span>:<span id="sec"></span></p>
+    <p class="pomodoro-countdown-status">START</p>
   </div>
+  <button
+    id="play"
+    class="pomodoro-play-action"
+  >PLAY</button>
   <script src="./src/js/pomodoro.js"></script>
 </body>
 

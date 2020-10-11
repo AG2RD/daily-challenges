@@ -1,0 +1,32 @@
+.pomodoro-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pomodoro-container {
+  width: 15%;
+  border: red solid;
+}
+
+.pomodoro-countdown,
+.pomodoro-countdown-status {
+  text-align: center;
+}
+
+.pomodoro-countdown {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategrey;
+}
+
+.pomodoro-countdown-status {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkred;
+}
